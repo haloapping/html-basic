@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h4>1. Input Text</h4>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="status">Status</label>
+        <input type="text" id="status" name="status">
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h4>2. Input Radio</h4>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" id="javascript" name="fav_language" value="javascript">
+        <label for="javascript">Javascript</label>
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h4>3. Input Checkbox</h4>
+    <form>
+        <input type="checkbox" id="html_1" name="fav_language" value="html">
+        <label for="html_1">HTML</label>
+        <br>
+        <input type="checkbox" id="css_1" name="fav_language" value="css">
+        <label for="css_1">CSS</label>
+        <br>
+        <input type="checkbox" id="javascript_1" name="fav_language" value="javascript">
+        <label for="javascript_1">Javascript</label>
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h4>4. Input Submit</h4>
+    <form action="/">
+        <label for="fullname">Fullname</label>
+        <input type="text" id="fullname" name="fullname"">
+        <br>
+        <p>Favourite Languange</p>
+        <input type="checkbox" id="css_1" name="fav_language" value="css">
+        <label for="css_1">CSS</label>
+        <br>
+        <input type="checkbox" id="javascript_1" name="fav_language" value="javascript">
+        <label for="javascript_1">Javascript</label>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h4>5. Input Button</h4>
+    <form action="">
+        <label for="btn">Button</label>
+        <input type="button" name="btn" id="btn" value="Press Me!">
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h4>6. Input Text Area</h4>
+    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    
+    <br><br>
+    <hr>
+    
+    <h4>7. Input Select Option</h4>
+    <select name="city" id="city">
+        <option value="bandung">Bandung</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="makassar">Makassar</option>
+    </select>
+</body>
+</html>
